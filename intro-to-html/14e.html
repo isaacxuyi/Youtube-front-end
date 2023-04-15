@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body style="height: 3000px;">
+    <style>
+      div {
+        font-family: Arial;
+      }
+      .facebook-header {
+        display: flex;
+        flex-direction: row;
+        height: 35;
+        position: fixed;
+        right: 0;
+        left: 0;
+        top: 0;
+        margin-top: 5px;
+      }
+      .header {
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+        align-items: center;
+        
+      }.profile-picture-column {
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+      }
+
+      .profile-picture {
+        width: 25px;
+        height: 25px;
+        border-radius: 30px;
+        object-fit: cover; 
+      }
+      .right-section {
+        display: flex;
+        margin-right: 30px;
+      }
+      .name {
+        margin-left: 8px;
+        font-size: x-small;
+      }
+      .add-friend {
+        background-color: blue;
+        margin-right: 5px;
+        font-weight: bold;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding-top: 8px;
+        padding-bottom: 9px;
+        font-size: 8px;
+        padding-left: 8px;
+        padding-right: 8px;
+      }
+        
+      .messages {
+        background-color: rgb(244, 244, 244);
+        border: none;
+        border-radius: 5px;
+        padding-top: 8px;
+        padding-bottom: 9px;
+        font-size: 8px;
+        padding-left: 8px;
+        padding-right: 8px;
+        font-weight: bold;
+        
+      }
+
+    </style>
+    <div class="facebook-header">
+    <div class="header">
+      <div class="profile-picture-column">
+        <img class="profile-picture" src="intro-to-html/images/dog.jpg">
+        <div class="name"><strong>Oliver dog</strong> </div> 
+      </div>
+      
+
+      <div class="right-section">
+      <div class="friend-button"><button class="add-friend">Add Friend</button></div>
+      <div class="message-button"><button class="messages">Message</button></div>
+     </div>
+     </div>
+     </div>
+  </body>
+</html>

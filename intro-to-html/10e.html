@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <style>
+      p {
+        font-family: Arial;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .add-button,
+      .mutual-pfp,
+      .name {
+        margin-left: 6px;
+      }
+      .profile-general {
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
+        width: 155px;
+        padding-bottom: 13px;
+      }
+      .mutual-pfp,
+      .mutual-count {
+        display: inline-block;
+      }
+      .add-button {
+        display: block;
+      }
+      .profile-picture {
+        width: 155px;
+      }
+      .add-button {
+        border: none;
+        color: rgb(255, 255, 255);
+        background-color: rgb(49, 110, 244);
+        width: 100px;
+        height: 29px;
+      }
+      .mutual-pfp {
+        width: 25px;
+        border-radius: 28px
+      }
+      .mutual-count {
+        margin-bottom: 9px;
+        color: rgb(95, 95, 95);
+        font-size: small;
+      }
+      .name {
+        font-weight: bold;
+        margin-bottom: 6px;
+      }
+      .profile-info-grid {
+        
+      }
+    </style>
+    <div profile-grid style="display: grid;
+    grid-template-columns: 1fr 1fr 1fr 5fr;
+    column-gap: 16px;">
+    <div
+    class="profile-general">
+    <img class="profile-picture" src="images/Screenshot 2023-03-15 194829.jpg">
+    <div class="profile-info-grid ">
+    <p class="name">Jamal</p>
+    <img class="mutual-pfp" src="images/channel-3.jpeg">
+    <p class="mutual-count"> 2 mutual friends</p>
+    <button class="add-button">Add Friend</button>
+    </div>
+    </div>
+    <div
+    class="profile-general">
+    <img class="profile-picture" src="images/Screenshot 2023-03-17 175425.jpg">
+    <p class="name">oliver</p>
+    <img class="mutual-pfp" src="images/channel-3.jpeg">
+    <p class="mutual-count"> 2 mutual friends</p>
+    <button class="add-button">Add Friend</button>
+    </div>
+    <div
+    class="profile-general">
+    <img class="profile-picture" src="images/Screenshot 2023-03-18 095752.jpg">
+    <p class="name">Khalid</p>
+    <img class="mutual-pfp" src="images/channel-3.jpeg">
+    <p class="mutual-count"> 2 mutual friends</p>
+    <button class="add-button">Add Friend</button>
+    </div>
+    </div>
+  </body>
+</html>

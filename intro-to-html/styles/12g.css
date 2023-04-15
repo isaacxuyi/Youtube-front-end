@@ -1,0 +1,15 @@
+p {
+  font-family: Arial;
+}
+.pfp {
+  display: flex;
+  background-color: rgb(41, 124, 152);
+  height: 50px;
+  width: 50px;
+  border-radius: 23px;
+}
+.name {
+  font-family: Arial;
+}
+
+
